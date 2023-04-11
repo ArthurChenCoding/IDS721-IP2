@@ -1,25 +1,11 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Template for Python projects 
+## IDS 721 individual project 2
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+Project name: Kubernetes based Continuous Delivery
 
-Things included are:
-
-* `Makefile`
-
-* `Pytest`
-
-* `pandas`
-
-* `Pylint`
-
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions` 
+Descriptions:
+Create a customized Docker container from the current version of Python that deploys a simple python script.
+Push image to DockerHub, or Cloud based Container Registery (ECR)
+Project should deploy automatically to Kubernetes cluster
+Deployment should be to some form of Kubernetes service (can be hosted like Google Cloud Run or Amazon EKS, etc)
 
