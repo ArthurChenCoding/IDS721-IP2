@@ -3,9 +3,8 @@
 
 Project name: Kubernetes based Continuous Delivery
 
-Descriptions:\
-Create a customized Docker container from the current version of Python that deploys a simple python script.\
-Push image to DockerHub, or Cloud based Container Registery (ECR)\
-Project should deploy automatically to Kubernetes cluster\
-Deployment should be to some form of Kubernetes service (can be hosted like Google Cloud Run or Amazon EKS, etc)
+Created a customized Docker container deploys a python script that reverse a string.\
+Pushed the image to DockerHub\
+Project is deployed automatically to Kubernetes cluster whenever you push changes to the main branch of GitHub repository. \
+The GitHub Actions workflow will automatically build, test, and deploy application to the Kubernetes cluster.\
 
